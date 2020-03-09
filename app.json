@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/demo05/demo05",
+    "pages/demo04/demo04",
+    "pages/demo03/demo03",
+    "pages/index/index",
+    "pages/img/img",
+    "pages/search/search",
+    "pages/my/my",
+    "pages/logs/logs",
+    "pages/demo01/demo01"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icon/_homepage.png",
+      "selectedIconPath": "/icon/homepage.png"
+    },
+    {
+      "pagePath": "pages/search/search",
+      "text": "搜索",
+      "iconPath": "icon/_search.png",
+      "selectedIconPath": "/icon/search.png"
+    },
+    {
+      "pagePath": "pages/img/img",
+      "text": "图片预览",
+      "iconPath": "icon/_img.png",
+      "selectedIconPath": "/icon/img.png"
+    },
+    {
+      "pagePath": "pages/my/my",
+      "text": "个人中心",
+      "iconPath": "icon/_my.png",
+      "selectedIconPath": "/icon/my.png"
+    }
+    ],
+    "position":"top",
+    "borderStyle": "white"
+  },
+  
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

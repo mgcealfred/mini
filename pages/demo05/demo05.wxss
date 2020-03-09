@@ -1,0 +1,23 @@
+/*
+1 小程序当中 不需要主动来引入样式文件
+2 需要把页面中的某些元素的单位由px改成rpx
+3 存在一个设计稿 宽度 未知
+  设计稿 page 存在一个元素 宽度 100px
+  page px = 750 rpx
+  1 px = 750 rpx * 100 / page
+  100 px = 750 rpx * 100 / page
+  假设 page = 375px
+4 利用一个属性 calc属性 css和wxss都支持一个属性
+  1 750 和 rpx 中间不要留空格
+  2 运算符的两边也不要留空格
+*/
+
+view{
+
+  /* width: 200rpx; */
+  width: calc(750rpx*100/375);
+  height: 200rpx;
+  font-size: 40rpx;
+  background-color: rgb(0, 217, 255);
+
+}
